@@ -11,7 +11,7 @@
     "typescript": "^3.9.3"
   },
   "scripts": {
-    "test": "nyc mocha --require ts-node/register --extensions ts,tsx --watch --watch-files src 'test/**/*.{ts,tsx}'"
+    "test": "mocha --require ts-node/register --extensions ts,tsx --watch --watch-files src 'test/**/*.{ts,tsx}'"
   },
   "repository": {
     "type": "git",

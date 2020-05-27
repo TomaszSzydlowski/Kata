@@ -1,0 +1,30 @@
+{
+  "name": "kata-ts",
+  "version": "1.0.0",
+  "description": "Tasks to develop programming skill ",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0",
+    "nyc": "^15.0.1",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  },
+  "scripts": {
+    "test": "mocha --require ts-node/register --extensions ts,tsx --watch --watch-files src 'test/**/*.{ts,tsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaszSzydlowski/Kata.git"
+  },
+  "author": "Tomasz Szydlowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomaszSzydlowski/Kata/issues"
+  },
+  "homepage": "https://github.com/TomaszSzydlowski/Kata#readme",
+  "dependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2"
+  }
+}
